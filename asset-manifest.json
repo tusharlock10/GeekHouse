@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/geekhouse/static/js/main.78ef4b0a.chunk.js",
+    "main.js.map": "/geekhouse/static/js/main.78ef4b0a.chunk.js.map",
+    "runtime-main.js": "/geekhouse/static/js/runtime-main.d08d59a3.js",
+    "runtime-main.js.map": "/geekhouse/static/js/runtime-main.d08d59a3.js.map",
+    "static/js/2.438c933e.chunk.js": "/geekhouse/static/js/2.438c933e.chunk.js",
+    "static/js/2.438c933e.chunk.js.map": "/geekhouse/static/js/2.438c933e.chunk.js.map",
+    "index.html": "/geekhouse/index.html",
+    "precache-manifest.56c09c24f4cbb2c6532aca5f43599245.js": "/geekhouse/precache-manifest.56c09c24f4cbb2c6532aca5f43599245.js",
+    "service-worker.js": "/geekhouse/service-worker.js",
+    "static/js/2.438c933e.chunk.js.LICENSE": "/geekhouse/static/js/2.438c933e.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d08d59a3.js",
+    "static/js/2.438c933e.chunk.js",
+    "static/js/main.78ef4b0a.chunk.js"
+  ]
+}

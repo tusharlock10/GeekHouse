@@ -1,0 +1,46 @@
+* { margin: 0; padding: 0; }
+
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato'), url(./fonts/Lato-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Product-Sans';
+    src: local('Product-Sans'), url(./fonts/Product-Sans.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: local('HelveticaNeue'), url(./fonts/HelveticaNeue.ttf) format('truetype');
+}
+
+div {
+    display: flex;
+}
+
+.font_lato {
+    font-family: Lato;
+    font-weight: 600
+}
+.font_product_sans {
+    font-family: Product-Sans;
+}
+
+.font_helvetica_neue {
+    font-family: HelveticaNeue
+}
+
+.button_box {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.028),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.035),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.050),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.06),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  }
+  
+  
+  body {
+    background: #EEF2F7;
+  }
