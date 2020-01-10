@@ -19,12 +19,12 @@ export default class Login extends React.Component{
   geekHouseLogo(){
     return (
       <div style={{flex1:1,alignItems:'center',
-        justifyContent:'center', flexBasis:"50%", flexDirection:'column',
-        }}>
-        <img src={'logo.png'} style={{width:"50%",minWidth:150}}/>
-        <div className="font_product_sans"
+        justifyContent:'center', flexBasis:"50%", flexDirection:'column',}}>
+        <img src={'logo.svg'} style={{width:"50%",minWidth:150, alignSelf:'center'}}/>
+        <div className="font_lato"
           style={{color:COLORS_LIGHT_THEME.LIGHT, wordBreak:'break-word',textAlign:'center', 
-          width:"40%",fontSize:"20"}}>
+          width:"60%",fontSize:(this.state.flexDirectionOn)?"3vh":"2vh", 
+          justifyContent:'center', alignItems:'center'}}>
           ALL NEW PLATFORM FOR SHARING KNOWLEDGE
         </div>
       </div>
@@ -33,30 +33,26 @@ export default class Login extends React.Component{
 
   renderGoogleButton(){
     return(
-      <div className="button_box" style={{backgroundColor:COLORS_LIGHT_THEME.LIGHT, alignItems:'center', 
-        color:COLORS_LIGHT_THEME.LESS_DARK, height:48, width:"68%",
-        maxWidth:250, margin:10,fontSize:18,
+      <button className="button_box" style={{backgroundColor:COLORS_LIGHT_THEME.LIGHT, alignItems:'center', 
+        color:COLORS_LIGHT_THEME.LESS_DARK, height:"7vh", width:"65%",
+        maxWidth:(!this.state.flexDirectionOn)?null:250, margin:"0.7vh",fontSize:"2.2vh",
         justifyItems:'center', flexDirection:'row',
-        justifyContent:'space-evenly', borderRadius:12}}>
-        <div>
-          <img src={'google.png'} style={{height:32}} />
-        </div>
-        <div className="font_product_sans" >
-          SignIn With Google
-        </div>
-      </div>
+        justifyContent:'space-evenly', borderRadius:"1.8vh"}}
+        onVolumeChange = {()=>{console.log("Hello")}}>
+        
+      </button>
     )
   }
 
   renderFacebookButton(){
     return(
       <div className="button_box" style={{backgroundColor:'rgb(24, 119, 242)', alignItems:'center', 
-        color:COLORS_LIGHT_THEME.LIGHT, height:48,
-        maxWidth:(this.state.flexDirectionOn)?"70%":250, margin:10,fontSize:16,
+        color:COLORS_LIGHT_THEME.LIGHT, height:"7vh", width:"65%",
+        maxWidth:(!this.state.flexDirectionOn)?null:250, margin:'0.7vh',fontSize:"2vh",
         justifyItems:'center', flexDirection:'row',
-        justifyContent:'space-evenly', borderRadius:12}}>
+        justifyContent:'space-evenly', borderRadius:"1.8vh"}}>
         <div>
-          <img src={'facebook.png'} style={{height:32}} />
+          <img src={'facebook.png'} style={{height:"4.5vh"}} />
         </div>
         <div className="font_helvetica_neue" >
           Continue with Facebook
