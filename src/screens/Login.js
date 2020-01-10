@@ -33,14 +33,20 @@ export default class Login extends React.Component{
 
   renderGoogleButton(){
     return(
-      <button className="button_box" style={{backgroundColor:COLORS_LIGHT_THEME.LIGHT, alignItems:'center', 
-        color:COLORS_LIGHT_THEME.LESS_DARK, height:"7vh", width:"65%",
-        maxWidth:(!this.state.flexDirectionOn)?null:250, margin:"0.7vh",fontSize:"2.2vh",
+      <div className="button_box" style={{backgroundColor:COLORS_LIGHT_THEME.LIGHT,
+        alignItems:'center', 
+        color:COLORS_LIGHT_THEME.LIGHT, height:"7vh", width:"65%",
+        maxWidth:(!this.state.flexDirectionOn)?null:250, margin:'0.7vh',fontSize:"2vh",
         justifyItems:'center', flexDirection:'row',
-        justifyContent:'space-evenly', borderRadius:"1.8vh"}}
-        onVolumeChange = {()=>{console.log("Hello")}}>
-        
-      </button>
+        justifyContent:'space-evenly', borderRadius:"1.8vh"}}>
+        <div>
+          <img src={'google.png'} style={{height:"4.5vh"}} />
+        </div>
+        <div className="font_product_sans" style={{fontSize:"2.4vh",
+          color:COLORS_LIGHT_THEME.LESS_DARK}}>
+          SignIn With Google
+        </div>
+      </div>
     )
   }
 
