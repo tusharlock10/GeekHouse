@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/GeekHouse/static/js/main.78ef4b0a.chunk.js",
-    "main.js.map": "/GeekHouse/static/js/main.78ef4b0a.chunk.js.map",
-    "runtime-main.js": "/GeekHouse/static/js/runtime-main.c05779f4.js",
-    "runtime-main.js.map": "/GeekHouse/static/js/runtime-main.c05779f4.js.map",
-    "static/js/2.438c933e.chunk.js": "/GeekHouse/static/js/2.438c933e.chunk.js",
-    "static/js/2.438c933e.chunk.js.map": "/GeekHouse/static/js/2.438c933e.chunk.js.map",
+    "main.js": "/GeekHouse/static/js/main.a80c4917.chunk.js",
+    "main.js.map": "/GeekHouse/static/js/main.a80c4917.chunk.js.map",
+    "runtime-main.js": "/GeekHouse/static/js/runtime-main.df7d9f20.js",
+    "runtime-main.js.map": "/GeekHouse/static/js/runtime-main.df7d9f20.js.map",
+    "static/js/2.b7dfe7c8.chunk.js": "/GeekHouse/static/js/2.b7dfe7c8.chunk.js",
+    "static/js/2.b7dfe7c8.chunk.js.map": "/GeekHouse/static/js/2.b7dfe7c8.chunk.js.map",
     "index.html": "/GeekHouse/index.html",
-    "precache-manifest.aa2de99e6ac818abbf0fa4a487b79ba3.js": "/GeekHouse/precache-manifest.aa2de99e6ac818abbf0fa4a487b79ba3.js",
+    "precache-manifest.4ca84d6b62ac166038443b1120a9bea2.js": "/GeekHouse/precache-manifest.4ca84d6b62ac166038443b1120a9bea2.js",
     "service-worker.js": "/GeekHouse/service-worker.js",
-    "static/js/2.438c933e.chunk.js.LICENSE": "/GeekHouse/static/js/2.438c933e.chunk.js.LICENSE"
+    "static/js/2.b7dfe7c8.chunk.js.LICENSE": "/GeekHouse/static/js/2.b7dfe7c8.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.c05779f4.js",
-    "static/js/2.438c933e.chunk.js",
-    "static/js/main.78ef4b0a.chunk.js"
+    "static/js/runtime-main.df7d9f20.js",
+    "static/js/2.b7dfe7c8.chunk.js",
+    "static/js/main.a80c4917.chunk.js"
   ]
 }
